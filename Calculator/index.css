@@ -1,0 +1,81 @@
+.fullBox {
+    max-width: 300px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgba(0, 0, 255, 0.2);
+    background-color:rgba(74, 55, 197, 0.1) ;
+    border-color: rgba(0, 0, 0, 1);
+    border-radius: 5px;
+    border-width: 10px;
+}
+
+#display {
+    text-align: right;
+    height: 50px;
+    line-height: 40px;
+    padding: 10px 5px;
+    font-size: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: rgba(97, 97, 134, 0.7) ;
+}
+
+.Buttons {
+    display: grid;
+    
+}
+
+.Top{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.Button {
+    border: inset;
+    border-color: rgb(34, 30, 30);
+    border-width: 0.2px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#zero {
+    background-color: orange;
+}
+
+.Bottom {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+#operator {
+    background-color: beige;
+}
+
+#equal {
+    background-color: bisque;
+}
+
+#operator:hover {
+    background-color: darkcyan;
+    color: white;
+    transition: 0.6s;
+}
+
+#zero:hover {
+    background-color: darkgreen;
+    color: white;
+    transition: 0.3s;
+}
+
+#equal:hover {
+    background-color: darkcyan;
+    color: white;
+    transition: 0.6s;
+}
+
+#number:hover {
+    background-color: rgba(152, 152, 156, 0.7) ;
+    color: white;
+    transition: 0.3s;
+}
